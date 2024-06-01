@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    font-family: "Chocolate Classical Sans", sans-serif;
+}
+.box{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    line-height: 1rem;
+    
+}
+.box img{
+    height: 80%;
+    width: 500px;
+    background-size: cover;
+    border-radius: 10px;
+}
+button{
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(28, 47, 159);
+    border: none;
+    cursor: pointer;
+    font-family: "Chocolate Classical Sans", sans-serif;
+}
+@media (max-width:768px) {
+    .box img{
+        height: 60%;
+        width: 98%;
+    }
+}
